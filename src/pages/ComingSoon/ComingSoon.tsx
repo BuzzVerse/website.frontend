@@ -1,6 +1,5 @@
+import { TypeWriter } from '@pages/ComingSoon/components/TypeWriter';
 import { useState } from 'react';
-
-import { TypeWriter } from '../components/TypeWriter/TypeWriter';
 
 enum TextToType {
   COMING_SOON = 'BuzzVerse coming soon'
