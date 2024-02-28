@@ -1,5 +1,11 @@
+import { MenuItem } from '@components/common/MenuItems.ts';
 import { Anchor as AntAnchor } from 'antd';
 
-export function Anchor({ items, direction }) {
-  return <AntAnchor direction={direction} items={items} />;
+interface AnchorProps {
+  MenuItems: MenuItem[];
+  direction: 'horizontal' | 'vertical';
+}
+
+export function Anchor({ MenuItems, direction }: AnchorProps) {
+  return <AntAnchor direction={direction} items={MenuItems} />;
 }

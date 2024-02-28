@@ -1,6 +1,6 @@
-import { Anchor } from 'antd';
+import { Anchor } from '@components/Anchor.tsx';
+import { MenuItems } from '@components/common/MenuItems.ts';
 
-import { MenuItems } from './Header';
 import BvLogo from '/assets/bv_logo_dark.svg';
 
 export function Footer() {
@@ -13,13 +13,17 @@ export function Footer() {
             <h3>
               <a href="mailto:contact@buzzverse.dev">contact@buzzverse.dev</a>
             </h3>
+            <h3>
+              <p className={'py-3'}>64-120 Zielona Góra</p>
+              <p>Polska</p>
+            </h3>
           </div>
           <div>
             <h1 className="text-2xl pb-3">BuzzVerse</h1>
             <h3>
               <a href="#asd">
                 {' '}
-                <Anchor direction="vertical" items={MenuItems} />
+                <Anchor direction="vertical" MenuItems={MenuItems} />
               </a>
             </h3>
           </div>
