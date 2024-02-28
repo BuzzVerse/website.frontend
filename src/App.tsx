@@ -30,7 +30,7 @@ export function App() {
             style={{ height: 'auto', position: 'sticky', top: 0, zIndex: 20 }}>
             <Header />
           </AntDHeader>
-          <AntDContent style={{ minHeight: '100vh' }}>
+          <AntDContent style={{ height: '1000vh' }}>
             <LandingPage />
           </AntDContent>
           <AntDFooter style={{ paddingInline: 0, paddingBlock: 0 }}>
