@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './style.css';
 
@@ -6,6 +6,7 @@ import './style.css';
 
 // TODO: Hide if cursor not moved
 export const CustomCursor = () => {
+  const [isActive, setIsActive] = useState<boolean>(true);
   // const { type } = useContext(CustomCursorContext);
   const secondaryCursor = React.useRef<HTMLDivElement>(null);
   const positionRef = React.useRef({
@@ -17,9 +18,17 @@ export const CustomCursor = () => {
     distanceY: 0,
     key: -1
   });
-
+  React.useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setIsActive(false);
+    }, 3000);
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  });
   React.useEffect(() => {
     document.addEventListener('mousemove', event => {
+      setIsActive(true);
       const { clientX, clientY } = event;
 
       const mouseX = clientX;
@@ -74,7 +83,9 @@ export const CustomCursor = () => {
   }, []);
   return (
     <div className={`cursor-wrapper default`}>
-      <div className="secondary-cursor" ref={secondaryCursor}></div>
+      <div
+        className={isActive ? 'secondary-cursor' : ''}
+        ref={secondaryCursor}></div>
     </div>
   );
 };
