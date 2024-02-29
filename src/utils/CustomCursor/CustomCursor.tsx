@@ -6,6 +6,7 @@ type CursorManagerProps = {
 
 export const CursorContext = createContext({
   size: 'small',
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   setSize: (_value: string) => {}
 });
 

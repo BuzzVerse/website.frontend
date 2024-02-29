@@ -26,10 +26,12 @@ export const CustomCursor = () => {
       const mouseY = clientY;
 
       positionRef.current.mouseX =
-        // @ts-ignore
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-expect-error
         mouseX - secondaryCursor.current.clientWidth / 2;
       positionRef.current.mouseY =
-        // @ts-ignore
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        //@ts-expect-error
         mouseY - secondaryCursor.current.clientHeight / 2;
     });
 
