@@ -3,6 +3,7 @@ import { ConfigProvider, Layout, theme } from 'antd';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { LandingPage } from './pages/LandingPage';
+import { CustomCursor } from './utils/CustomCursor';
 
 export function App() {
   const {
@@ -24,6 +25,7 @@ export function App() {
         },
         algorithm: theme.darkAlgorithm
       }}>
+      <CustomCursor />
       <div className="h-screen w-screen m-0 p-0 overflow-x-hidden">
         <Layout>
           <AntDHeader
