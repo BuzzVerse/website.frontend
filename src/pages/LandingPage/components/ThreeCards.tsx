@@ -1,6 +1,6 @@
 export function ThreeCards() {
   return (
-    <div className="relative h-[9%] w-full flex justify-center items-center bg-quaternary opacity-85">
+    <>
       <div className="absolute top-[15%] left-1/3 w-1/6 h-1/3 bg-secondary rounded-lg opacity-50 z-[-1] shadow-lg shadow-blue-400/90"></div>
       <div className="absolute right-[35%] top-1/4 w-1/5 h-1/3 bg-primary rounded-lg opacity-60 z-[-1] shadow-lg shadow-orange-400/90"></div>
       <div className="absolute bottom-[35%] right-[45%] w-1/6 h-1/3 bg-quaternary rounded-lg opacity-60 z-10 shadow-lg shadow-white-400/90"></div>
@@ -9,6 +9,6 @@ export function ThreeCards() {
           BuzzVerse
         </h1>
       </div>
-    </div>
+    </>
   );
 }
