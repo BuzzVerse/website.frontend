@@ -1,22 +1,24 @@
 import { Anchor } from '@components/Anchor.tsx';
-import { MenuItem, MenuItems } from '@components/common/MenuItems.ts';
+import { AnchorLinkItemProps } from 'antd/lib/anchor/Anchor';
 
 import BvLogo from '/assets/bv_logo_dark.svg';
 
-const SocialItems: MenuItem[] = [
+const SocialItems: AnchorLinkItemProps[] = [
   {
     key: 'github',
     href: 'https://github.com/BuzzVerse',
     title: 'Github'
-  },
-  {
-    key: 'facebook',
-    title: 'Facebook'
-  },
-  {
-    key: 'instagram',
-    title: 'Instagram'
   }
+  // {
+  //   key: 'facebook',
+  //   href: 'https://www.facebook.com',
+  //   title: 'Facebook'
+  // },
+  // {
+  //   key: 'instagram',
+  //   href: 'https://www.instagram.com',
+  //   title: 'Instagram'
+  // }
 ];
 
 export function Footer() {

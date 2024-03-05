@@ -1,7 +1,6 @@
-import { Typography, Card } from 'antd';
+import { Card } from 'antd';
 
 export function MainView() {
-  const { Title, Paragraph, Text, Link } = Typography;
   return (
     <>
       <div
