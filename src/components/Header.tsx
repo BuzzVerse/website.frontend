@@ -6,8 +6,8 @@ import BvLogo from '/assets/bv_logo_dark.svg';
 export function Header() {
   return (
     <>
-      <div className="flex justify-start items-center my-3 ">
-        <img className="max-h-20" src={BvLogo} alt="BuzzVerse Logo" />{' '}
+      <div className="flex justify-start items-center my-2">
+        <img className="max-h-28 mr-10" src={BvLogo} alt="BuzzVerse Logo" />{' '}
         <Anchor direction="horizontal" MenuItems={MenuItems} />
       </div>
     </>

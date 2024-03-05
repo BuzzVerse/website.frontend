@@ -2,11 +2,12 @@ import { Anchor } from '@components/Anchor.tsx';
 import { MenuItems } from '@components/common/MenuItems.ts';
 
 import BvLogo from '/assets/bv_logo_dark.svg';
+// import GithubLogo from '/assets/github-mark-white.svg';
 
 export function Footer() {
   return (
     <div className="bg-tertiary justify-center items-center py-6 font-light">
-      <div className="w-full flex justify-around">
+      <div className="w-full flex justify-between">
         <div className="w-4/5 flex flex-row justify-between px-10">
           <div>
             <h1 className="text-2xl pb-3 tracking-wide mb-3">Kontakt</h1>
@@ -27,12 +28,17 @@ export function Footer() {
               </a>
             </h3>
           </div>
-          <div>
+            <div>
             <h1 className="text-2xl pb-3 tracking-wide mb-3">Obserwuj nas</h1>
-          </div>
-        </div>
-        <div className="w-1/5">
-          <img src={BvLogo} alt="BuzzVerse Logo" className="w-52" />{' '}
+              {/* <div className=" hover:bg-orange">
+              <a href="https://github.com/BuzzVerse" className="m-0">
+                <img src={GithubLogo} alt="GitHub Logo" className="w-6 m-0"  />
+              </a>
+              </div> */}
+            </div>
+      </div>
+        <div className="w-13">
+          <img src={BvLogo} alt="BuzzVerse Logo" className="w-48" />{' '}
         </div>
       </div>
       <div className="flex flex-row justify-between px-10">
