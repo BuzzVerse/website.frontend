@@ -6,20 +6,20 @@ import { Temperature } from '@pages/LandingPage/components/Grafana/components/Te
 
 export function Grafana() {
   return (
-    <div>
-      <div className="h-full flex items-center w-full flex-col ">
-        <LastMeasurement />
-      </div>
-      <div className="h-full w-screen flex justify-start items-center flex-col ">
-        <div className="h-full flex flex-row w-full justify-around max-sm:flex-col min-md:w-1/3">
+    <>
+      <div className="h-full w-full flex flex-col items-center">
+        <div className="w-full px-5">
+          <LastMeasurement />
+        </div>
+        <div className="flex flex-col w-full px-5 md:flex-row gap-5 py-5">
           <Humidity />
           <Temperature />
           <Pressure />
         </div>
-        <div className="w-screen">
+        <div className="w-full px-5">
           <TemparatureChart />
         </div>
       </div>
-    </div>
+    </>
   );
 }

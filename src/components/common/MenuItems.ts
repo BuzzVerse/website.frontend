@@ -1,6 +1,6 @@
 export interface MenuItem {
   key: string;
-  href: string;
+  href?: string;
   title: string;
 }
 
@@ -10,11 +10,11 @@ export const MenuItems: MenuItem[] = [
     href: '#about-us',
     title: 'O nas'
   },
-  {
-    key: 'team',
-    href: '#team',
-    title: 'Zespół'
-  },
+  // {
+  //   key: 'team',
+  //   href: '#team',
+  //   title: 'Zespół'
+  // },
   {
     key: 'projects',
     href: '#projects',

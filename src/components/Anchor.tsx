@@ -7,5 +7,7 @@ interface AnchorProps {
 }
 
 export function Anchor({ MenuItems, direction }: AnchorProps) {
-  return <AntAnchor direction={direction} items={MenuItems} />;
+  return (
+    <AntAnchor direction={direction} targetOffset={120} items={MenuItems} />
+  );
 }

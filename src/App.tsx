@@ -24,13 +24,13 @@ export function App() {
         },
         algorithm: theme.darkAlgorithm
       }}>
-      <div className="h-screen w-screen m-0 p-0 overflow-x-hidden">
+      <div className="h-full w-full m-0 p-0">
         <Layout>
           <AntDHeader
             style={{ height: 'auto', position: 'sticky', top: 0, zIndex: 20 }}>
             <Header />
           </AntDHeader>
-          <AntDContent style={{ height: '1000vh' }}>
+          <AntDContent>
             <LandingPage />
           </AntDContent>
           <AntDFooter style={{ paddingInline: 0, paddingBlock: 0 }}>
