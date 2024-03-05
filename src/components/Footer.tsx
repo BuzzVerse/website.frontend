@@ -48,7 +48,7 @@ export function Footer() {
           <img
             src={BvLogo}
             alt="BuzzVerse Logo"
-            className="w-[65%] md:w-[50%] lg:w-[40%] xl:w-[30%] 2xl:w-[20%] py-5"
+            className="w-[55%] md:w-[40%] lg:w-[30%] xl:w-[20%] 2xl:w-[10%] py-5"
           />
         </div>
       </div>
