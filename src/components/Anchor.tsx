@@ -1,8 +1,8 @@
-import { MenuItem } from '@components/common/MenuItems.ts';
 import { Anchor as AntAnchor } from 'antd';
+import { AnchorLinkItemProps } from 'antd/lib/anchor/Anchor';
 
 interface AnchorProps {
-  MenuItems: MenuItem[];
+  MenuItems: AnchorLinkItemProps[];
   direction: 'horizontal' | 'vertical';
 }
 
