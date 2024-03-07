@@ -1,20 +1,16 @@
-export interface MenuItem {
-  key: string;
-  href: string;
-  title: string;
-}
+import { AnchorLinkItemProps } from 'antd/lib/anchor/Anchor';
 
-export const MenuItems: MenuItem[] = [
+export const MenuItems: AnchorLinkItemProps[] = [
   {
     key: 'about-us',
     href: '#about-us',
     title: 'O nas'
   },
-  {
-    key: 'team',
-    href: '#team',
-    title: 'Zespół'
-  },
+  // {
+  //   key: 'team',
+  //   href: '#team',
+  //   title: 'Zespół'
+  // },
   {
     key: 'projects',
     href: '#projects',
