@@ -20,7 +20,7 @@ export function ThreeCards() {
         x: 0,
         y: 0,
         scale: 1,
-        duration: 1.4,
+        duration: 1.8,
         ease: 'ease-out'
       }
     );
@@ -37,7 +37,7 @@ export function ThreeCards() {
         x: 0,
         y: 0,
         scale: 1,
-        duration: 1.4,
+        duration: 1.8,
         ease: 'ease-out'
       }
     );
@@ -52,7 +52,7 @@ export function ThreeCards() {
       {
         y: 0,
         scale: 1,
-        duration: 1.4,
+        duration: 1.8,
         ease: 'ease-out'
       }
     );
@@ -109,7 +109,7 @@ export function ThreeCards() {
         <h1
           //@ts-ignore
           ref={mainText}
-          className="text-5xl font-bold tracking-widest uppercase text-secondary">
+          className="text-5xl font-bold tracking-widest uppercase text-dark_secondary">
           BuzzVerse
         </h1>
       </div>

@@ -7,7 +7,7 @@ export function Header() {
   return (
     <>
       <div className="flex justify-start items-center my-2">
-        <img className="max-h-28 mr-10" src={BvLogo} alt="BuzzVerse Logo" />{' '}
+        <img className="max-h-28 p-3 mr-8" src={BvLogo} alt="BuzzVerse Logo" />{' '}
         <Anchor direction="horizontal" MenuItems={MenuItems} />
       </div>
     </>
