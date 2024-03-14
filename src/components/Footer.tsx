@@ -24,7 +24,7 @@ const SocialItems: AnchorLinkItemProps[] = [
 export function Footer() {
   return (
     <div
-      className="bg-tertiary justify-center items-center py-6 px-5 font-light mt-20"
+      className="bg-tertiary justify-center items-center py-6 px-5 font-light"
       id="contact">
       <div className="w-full flex flex-col md:flex-row md:gap-5">
         <div className="w-full flex gap-5 md:w-fit py-3">

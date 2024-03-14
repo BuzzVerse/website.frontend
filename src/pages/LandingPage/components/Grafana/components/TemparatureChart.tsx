@@ -16,8 +16,8 @@ export function TemparatureChart({
           (Date.now() - 1000 * 60 * 15) +
           '&panelId=2'
         }
-        width="100%"
-        height="100%"
+        width={width}
+        height={height}
         frameBorder="0"></iframe>
     </div>
   );

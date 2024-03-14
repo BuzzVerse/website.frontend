@@ -1,6 +1,6 @@
 import { Card } from 'antd';
 
-export function MainView() {
+export function AboutUs() {
   return (
     <>
       <div

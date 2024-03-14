@@ -7,7 +7,7 @@ import { Temperature } from '@pages/LandingPage/components/Grafana/components/Te
 export function Grafana() {
   return (
     <>
-      <div className="h-full w-full flex flex-col items-center">
+      <div className="h-full w-full flex flex-col items-center my-10">
         <div className="w-full px-5">
           <LastMeasurement />
         </div>
