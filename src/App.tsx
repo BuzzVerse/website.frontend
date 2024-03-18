@@ -14,13 +14,13 @@ export function App() {
     <ConfigProvider
       theme={{
         token: {
-          colorBgLayout: '#121212',
+          colorBgLayout: '#DFF0FF',
           colorPrimary: '#FF8E2B',
-          colorHighlight: '#2E77AE',
-          colorTextSecondary: '#E0EAF5',
-          colorTextTertiary: '#0D2137',
+          colorHighlight: '#2E77AE',  //blue
+          colorTextSecondary: '#E0EAF5', //baby blue
+          colorTextTertiary: '#0D2137', //navy
           colorTextQuaternary: '#EEEEE0',
-          colorLinkHover: '#FF8E2B'
+          colorLinkHover: '#FF8E2B' //orange
         },
         algorithm: theme.darkAlgorithm
       }}>
