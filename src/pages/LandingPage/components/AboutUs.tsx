@@ -15,6 +15,7 @@ export function AboutUs() {
             urządzeń wbudowanych.
           </Card>
           <Card title="Działalność naukowa" className="md:mt-32">
+           test1
             W ramach działalności koła realizujemy projekty, które pozwalają nam
             rozwijać nasze umiejętności praktyczne. Dzięki wsparciu lokalnych
             firm i uczelni, nasze projekty mają realny wpływ na rozwój
