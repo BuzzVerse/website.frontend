@@ -20,7 +20,7 @@ export function ThreeCards() {
         x: 0,
         y: 0,
         scale: 1,
-        duration: 1.4,
+        duration: 1.6,
         ease: 'ease-out'
       }
     );
@@ -37,7 +37,7 @@ export function ThreeCards() {
         x: 0,
         y: 0,
         scale: 1,
-        duration: 1.4,
+        duration: 1.6,
         ease: 'ease-out'
       }
     );
@@ -52,7 +52,7 @@ export function ThreeCards() {
       {
         y: 0,
         scale: 1,
-        duration: 1.4,
+        duration: 1.6,
         ease: 'ease-out'
       }
     );

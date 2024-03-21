@@ -6,11 +6,11 @@ import { ThreeCards } from '@pages/LandingPage/components/ThreeCards.tsx';
 export function LandingPage() {
   return (
     <div className="h-full bg-cover bg-fixed relative">
-      <div className="flex flex-col items-center h-full w-full">
-        <div className="relative h-[90vh] w-full flex justify-center items-center bg-quaternary opacity-85">
+      <div className="flex flex-col items-center h-full w-full bg-quaternary-100">
+        <div className="relative h-[90vh] w-full flex justify-center items-center bg-BgLayout opacity-85">
           <ThreeCards />
         </div>
-        <div className="h-[80vh] flex justify-center items-center">
+        <div className="h-[80vh] flex justify-center items-center bg-tertiary">
           <AboutUs />
         </div>
         <div className="bg-secondary flex justify-center items-center h-screen w-screen ">

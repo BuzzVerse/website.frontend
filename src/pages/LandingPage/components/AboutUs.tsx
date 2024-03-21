@@ -16,7 +16,7 @@ export function AboutUs() {
           </Card>
           <Card title="Działalność naukowa" className="md:mt-32">
             W ramach działalności koła realizujemy projekty, które pozwalają nam
-            rozwijać nasze umiejętności praktyczne. Dzięki wsparciu lokalnych
+            rozwijać umiejętności praktyczne. Dzięki wsparciu lokalnych
             firm i uczelni, nasze projekty mają realny wpływ na rozwój
             technologii w regionie zielonogórskim.
           </Card>
