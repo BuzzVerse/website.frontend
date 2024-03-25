@@ -14,7 +14,7 @@ export function App() {
     <ConfigProvider
       theme={{
         token: {
-          colorBgLayout: '#121212',
+          colorBgLayout: '#DFF0FF',
           colorPrimary: '#FF8E2B',
           colorHighlight: '#2E77AE',
           colorTextSecondary: '#E0EAF5',
