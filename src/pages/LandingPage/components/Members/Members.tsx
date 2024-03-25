@@ -4,7 +4,6 @@ import {
   Direction
 } from '@pages/LandingPage/components/Members/types/TinderCard.ts';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
-import TinderCard from 'react-tinder-card';
 
 import { CustomCard } from './CustomCard';
 import { mockMembers } from './mockData/TeamMates';

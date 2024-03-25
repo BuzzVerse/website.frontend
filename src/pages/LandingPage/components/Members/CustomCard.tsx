@@ -1,4 +1,3 @@
-import { Badge, Card, Space } from 'antd';
 import TinderCard from 'react-tinder-card';
 
 import { API, Direction } from './types/TinderCard';
